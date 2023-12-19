@@ -3,7 +3,7 @@ import axios from "axios";
 
 //customised hook getting api data
 const useAxios = (baseUrl) => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [alert, setAlert] = useState({ show: false, message: "", type: "" });
   const [loading, setLoading] = useState(false);
 

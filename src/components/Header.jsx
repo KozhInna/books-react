@@ -7,7 +7,7 @@ function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typo graphy variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Typography
               variant="h5"
               noWrap
@@ -21,7 +21,7 @@ function Header() {
             >
               Books
             </Typography>
-          </Typo>
+          </Typography>
 
           <Button color="inherit" variant="text" component={Link} to="/">
             Home
