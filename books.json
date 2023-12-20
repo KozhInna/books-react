@@ -54,17 +54,7 @@
       "stars": "5",
       "id": 5,
       "img": "https://www.davidjpphillips.com/wp-content/uploads/2023/08/highonlife_copy-195x300.jpg"
-    },
-    {
-      "author": "asdasdasd",
-      "name": "asdasdas",
-      "genres": ["Thriller", "Children's Books", "Adventure", "Dystopian"],
-      "completed": true,
-      "start": null,
-      "end": null,
-      "stars": "4",
-      "img": "https://images.cdn.soppa365.fi/VTjBg-M-P8bCyTrPYc1iuhELDuI=/1230x0/smart/soppa365.fi/s3fs-public/recipe_main_media/seljanka.jpg",
-      "id": 6
     }
+
   ]
 }
