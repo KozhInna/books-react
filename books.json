@@ -4,7 +4,10 @@
       "id": 1,
       "author": "Antoine de Saint-Exupéry",
       "name": "The Little Prince",
-      "genres": ["Fantasy", "Adventure"],
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
       "completed": true,
       "start": "2023-03-10",
       "end": "2023-03-25",
@@ -15,7 +18,10 @@
       "id": 2,
       "author": "Walter Isaacson",
       "name": "Steve Jobs",
-      "genres": ["Biography", "Business"],
+      "genres": [
+        "Biography",
+        "Business"
+      ],
       "completed": true,
       "start": "2023-04-05",
       "end": "2023-04-30",
@@ -26,7 +32,10 @@
       "id": 3,
       "author": "George Orwell",
       "name": "1984",
-      "genres": ["Science Fiction", "Dystopian"],
+      "genres": [
+        "Science Fiction",
+        "Dystopian"
+      ],
       "completed": true,
       "start": "2023-05-10",
       "end": "2023-05-31",
@@ -37,7 +46,10 @@
       "id": 4,
       "author": "J.K. Rowling",
       "name": "Harry Potter and the Sorcerer's Stone",
-      "genres": ["Fantasy", "Adventure"],
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
       "completed": true,
       "start": "2023-06-15",
       "end": "2023-07-10",
@@ -47,14 +59,28 @@
     {
       "author": "David JP Phillips",
       "name": "High on Life",
-      "genres": ["Non-Fiction"],
+      "genres": [
+        "Non-Fiction"
+      ],
       "completed": true,
       "start": null,
       "end": null,
       "stars": "5",
       "id": 5,
       "img": "https://www.davidjpphillips.com/wp-content/uploads/2023/08/highonlife_copy-195x300.jpg"
+    },
+    {
+      "author": "Author",
+      "name": "Title",
+      "genres": [
+        "Business"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "img": "https://studentlegallounge.humboldt.edu/sites/default/files/styles/panopoly_image_original/public/image-coming-soon.jpg?itok=e-RY5zkr",
+      "id": 6
     }
-
   ]
 }

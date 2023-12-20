@@ -15,7 +15,7 @@ import { Stack, Typography } from "@mui/material";
 
 //adding a new book (with rating, all details)
 function AddBook() {
-  const { alert, post } = useAxios("http://localhost:3001");
+  const { alert, post } = useAxios("http://localhost:3000");
   const [rateValue, setRateValue] = useState(3);
   const [book, setBook] = useState({
     author: "",
@@ -25,6 +25,7 @@ function AddBook() {
     start: null,
     end: null,
     stars: null,
+    img: "https://studentlegallounge.humboldt.edu/sites/default/files/styles/panopoly_image_original/public/image-coming-soon.jpg?itok=e-RY5zkr",
   });
 
   //add genre
@@ -53,6 +54,9 @@ function AddBook() {
     } else {
       setBook({ ...book, [name]: value });
     }
+    /* if (name === "img" && value === "") {
+
+    } */
   };
 
   //post a book
@@ -87,7 +91,8 @@ function AddBook() {
         />
         <TextField
           name="img"
-          id="outlined-basic"
+          /*           defaultValue="https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG"
+           */ id="outlined-basic"
           label="Image (url)"
           variant="outlined"
         />
