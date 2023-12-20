@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import useAxios from "../services/useAxios";
 import TextField from "@mui/material/TextField";
+import { Link } from "react-router-dom";
 
 import {
   Box,
@@ -110,7 +111,9 @@ function Books() {
                       readOnly
                       size="small"
                     />
-                    <Button size="small">Learn More</Button>
+                    <Link to="/book" size="small">
+                      Learn More
+                    </Link>
                   </CardActions>
                 </Card>
               ))}
