@@ -26,7 +26,7 @@ function Books() {
       getBooks();
     }
   }, []);
-  console.log(data);
+  console.log("data from books", data);
 
   // TODO: Replace axios with useAxios hook
   function getBooks() {
@@ -111,7 +111,7 @@ function Books() {
                       readOnly
                       size="small"
                     />
-                    <Link to="/book" size="small">
+                    <Link to={`${book.name}`} size="small">
                       Learn More
                     </Link>
                   </CardActions>
